@@ -64,6 +64,7 @@ wrapper.addEventListener("click", (e) => {
           saveData();
         } else {
           titletask[0].classList.remove("line");
+          checkbox[i].removeAttribute("checked");
           saveData();
         }
       });
