@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="header">
+          <h2>To-Do-List</h2>
+          <img src="./images/icon.png" />
+        </div>
+        <div class="add">
+          <input
+            type="text"
+            required
+            class="task"
+            placeholder="Add your task"
+            id="task"
+          />
+          <button id="addtask">+ Add Task</button>
+        </div>
+        <div class="list">
+          <!-- <div class="note">
+            <input type="checkbox" name="checkbox" id="checkbox"/>
+            <p>Membuat Catatan Harian</p>
+            <button id="btnclose">x</button>
+          </div> -->
+        </div>
+        <div id="reset">
+          <button id="resetbtn">Clear All</button>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
